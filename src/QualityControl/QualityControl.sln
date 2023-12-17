@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QualityControl.Objects", "Objects/QualityControl.Objects.csproj", "63673168-c1ed-4e5a-910b-a6df68c90008"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QualityControl.Tests", "Tests/QualityControl.Tests.csproj", "35e32d30-3a2d-4a31-8d55-682db1bb4c4d"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QualityControl.ODataBackend", "ODataBackend/QualityControl.ODataBackend.csproj", "c33a7ad9-bbe2-4150-94b6-1883cdc2242f"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QualityControl.IntegrationTests", "IntegrationTests/QualityControl.IntegrationTests.csproj", "160b73aa-09a0-409c-be80-cd583c3adcc2"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		63673168-c1ed-4e5a-910b-a6df68c90008.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		63673168-c1ed-4e5a-910b-a6df68c90008.Debug|Any CPU.Build.0 = Debug|Any CPU
+		63673168-c1ed-4e5a-910b-a6df68c90008.Release|Any CPU.ActiveCfg = Release|Any CPU
+		63673168-c1ed-4e5a-910b-a6df68c90008.Release|Any CPU.Build.0 = Release|Any CPU
+		35e32d30-3a2d-4a31-8d55-682db1bb4c4d.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		35e32d30-3a2d-4a31-8d55-682db1bb4c4d.Debug|Any CPU.Build.0 = Debug|Any CPU
+		35e32d30-3a2d-4a31-8d55-682db1bb4c4d.Release|Any CPU.ActiveCfg = Release|Any CPU
+		35e32d30-3a2d-4a31-8d55-682db1bb4c4d.Release|Any CPU.Build.0 = Release|Any CPU
+		c33a7ad9-bbe2-4150-94b6-1883cdc2242f.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		c33a7ad9-bbe2-4150-94b6-1883cdc2242f.Debug|Any CPU.Build.0 = Debug|Any CPU
+		c33a7ad9-bbe2-4150-94b6-1883cdc2242f.Release|Any CPU.ActiveCfg = Release|Any CPU
+		c33a7ad9-bbe2-4150-94b6-1883cdc2242f.Release|Any CPU.Build.0 = Release|Any CPU
+		160b73aa-09a0-409c-be80-cd583c3adcc2.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		160b73aa-09a0-409c-be80-cd583c3adcc2.Debug|Any CPU.Build.0 = Debug|Any CPU
+		160b73aa-09a0-409c-be80-cd583c3adcc2.Release|Any CPU.ActiveCfg = Release|Any CPU
+		160b73aa-09a0-409c-be80-cd583c3adcc2.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
